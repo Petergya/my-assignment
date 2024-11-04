@@ -7,12 +7,17 @@ import Hero from "@/app/components/Hero";
 import FutureShoping from "@/app/components/FutureShoping";
 import WhatYouLove from "@/app/components/WhatYouLove";
 import Products from "@/app/components/Products";
+import Navbar from "@/component/Navbar";
+
+
+
 
 
 
 export default function Home() {
   return (
-    <>
+  <>
+  <Navbar />
     <Hero/>
     <Customers/>
     <Products/>
@@ -20,6 +25,10 @@ export default function Home() {
     <ProductCategories/>
     <WhatYouLove/>
     <Destination/>
-   </>
+  </>
+
+
+    
+   
   );
 }
