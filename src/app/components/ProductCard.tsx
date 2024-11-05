@@ -15,9 +15,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ Icon, title, description, act
       <div className="flex items-center justify-center w-12 h-12 border border-gray-300 rounded-lg p-2 mb-2">
         <Icon size={24} className="text-black" />
       </div>
-      <h2 className="text-xs font-bold mt-2 w-3/4">{title}</h2>
-      <p className="text-xs mt-2 w-4/5">{description}</p>
-      <p className="text-xs mt-2 font-bold text-[#EF2AF2]">{actionText}</p>
+      <h2 className="text-sm font-bold mt-2 w-3/4">{title}</h2>
+      <p className="text-sm mt-2 w-4/5">{description}</p>
+      <p className="text-sm mt-2 font-bold text-[#EF2AF2]">{actionText}</p>
     </div>
   );
 };

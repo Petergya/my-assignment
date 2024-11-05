@@ -7,7 +7,7 @@ import Hero from "@/app/components/Hero";
 import FutureShoping from "@/app/components/FutureShoping";
 import WhatYouLove from "@/app/components/WhatYouLove";
 import Products from "@/app/components/Products";
-import Navbar from "@/app/components/Navbar";
+import Navbar from "@/app/components/ui/Navbar";
 
 
 

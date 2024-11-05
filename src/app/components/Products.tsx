@@ -110,7 +110,7 @@ function Products() {
     <div className="mt-32">
       <div className="flex flex-col items-center text-center">
         <p className="font-bold text-xs text-[#4D4D4D]">Shop the Best Deals</p>
-        <h2 className="text-xl font-bold">Discover Your Perfect Product Today!</h2>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold">Discover Your Perfect Product Today!</h2>
       </div>
       <div className="flex flex-wrap justify-center gap-y-8 mt-10">
         {productData.map((product, index) => (
