@@ -159,7 +159,7 @@ const ProductCategories = () => {
       description: "Toys, Clothing, Essentials",
     },
     {
-      src: "/images/image7.jpeg",
+      src: "/images/imagee3.jpg",
       alt: "Gifts & Gadgets",
       title: "Gifts & Gadgets",
       description: "Unique Finds, Fun Items",
